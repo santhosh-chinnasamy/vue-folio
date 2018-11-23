@@ -1,27 +1,24 @@
 <template>
   <v-card height="200px" flat>
-    <div class="headline text-xs-center pa-5">
-      Active: {{ bottomNav }}
-    </div>
+    
     <v-bottom-nav
-      :active.sync="bottomNav"
       :value="true"
       fixed
       color="transparent"
     >
-      <v-btn
-        color="teal"
-        flat
-        value="recent"
-      >
+    
+      <v-btn color="teal" flat to="/"
+        router>
         <span>Home</span>
         <v-icon>home</v-icon>
       </v-btn>
-
+      
+<!-- <router-link to="/about"></router-link> -->
       <v-btn
         color="teal"
         flat
-        value="favorites"
+        to="/about"
+        router
       >
         <span>About</span>
         <v-icon>info</v-icon>
@@ -30,7 +27,8 @@
       <v-btn
         color="teal"
         flat
-        value="nearby"
+        to="/skills"
+        router
       >
         <span>Skills</span>
         <v-icon>book</v-icon>
@@ -39,7 +37,8 @@
       <v-btn
         color="teal"
         flat
-        value="contact"
+        to="/contact"
+        router
       >
         <span>Contact</span>
         <v-icon>explore</v-icon>
@@ -47,13 +46,3 @@
     </v-bottom-nav>
   </v-card>
 </template>
-
-<script>
-  export default {
-    data () {
-      return {
-        bottomNav: 'recent'
-      }
-    }
-  }
-</script>
