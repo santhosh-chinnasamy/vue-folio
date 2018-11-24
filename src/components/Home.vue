@@ -1,6 +1,11 @@
 <template>
   <div class="home">
     <v-container>
+      <v-avatar
+      size="256"
+      >
+        <img src="https://avatars3.githubusercontent.com/u/20743451?s=460&v=4" alt="">
+      </v-avatar>
       <p class="hi">Hi, I'm</p>
       <h1 class="name">santhosh</h1>
     </v-container>
@@ -13,15 +18,21 @@
 
 .hi{
   font-size: 6vmin;
+  font-family: 'Finger Paint', cursive;
+  font-weight: bolder;
 }
 
 .name {
-  background: linear-gradient(#667eea 0%, #764ba2 100%);
+  /* background: linear-gradient(#667eea 0%, #764ba2 100%); */
+  background: #42b883;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "Princess Sofia", cursive;
+  /* font-family: "Princess Sofia", cursive; */
+  font-family: 'Iceland', cursive;
   letter-spacing: 2vmin;
   font-size: 20vmin;
+  /* font-weight: lighter; */
 }
 </style>
 
