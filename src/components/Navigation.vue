@@ -1,10 +1,10 @@
 <template>
-  <v-card height="200px" flat>
+  <v-card height="200px" flat >
     
     <v-bottom-nav
       :value="true"
       fixed
-      color="transparent"
+      color="white"
     >
     
       <v-btn color="teal" flat to="/"

@@ -4,7 +4,7 @@
       <v-avatar
       size="256"
       >
-        <img src="https://avatars3.githubusercontent.com/u/20743451?s=460&v=4" alt="">
+        <img src="https://avatars3.githubusercontent.com/u/20743451?s=460&v=4" alt="santhosh chinnasamy">
       </v-avatar>
       <p class="hi">Hi, I'm</p>
       <h1 class="name">santhosh</h1>
@@ -20,6 +20,7 @@
   font-size: 6vmin;
   font-family: 'Finger Paint', cursive;
   font-weight: bolder;
+  color: #42b883;
 }
 
 .name {
