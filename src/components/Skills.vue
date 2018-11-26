@@ -64,6 +64,6 @@ li {
   font-weight: bold;
   font-size: 7.2vmin;
   color: #42b883;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 </style>

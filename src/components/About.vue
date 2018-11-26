@@ -37,7 +37,7 @@
     font-size: 7vmin;
     color: #0d1b2a;
     text-align: initial;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Roboto',sans-serif;
   }
 
 </style>

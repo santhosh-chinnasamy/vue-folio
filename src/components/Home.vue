@@ -16,24 +16,22 @@
 <style scoped>
 @import url("https://fonts.googleapis.com/css?family=Princess+Sofia");
 
-.hi{
+.hi {
   font-size: 6vmin;
-  font-family: 'Finger Paint', cursive;
-  font-weight: bolder;
+  font-family: "Finger Paint", cursive;
+  padding: 20px;
+  font-weight: bold;
   color: #42b883;
 }
 
 .name {
-  /* background: linear-gradient(#667eea 0%, #764ba2 100%); */
   background: #42b883;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* font-family: "Princess Sofia", cursive; */
-  font-family: 'Iceland', cursive;
+  font-family: "Iceland", cursive;
   letter-spacing: 2vmin;
   font-size: 20vmin;
-  /* font-weight: lighter; */
 }
 </style>
 

@@ -44,6 +44,10 @@ export default {
           id: 5,
           title: "Email",
           url: "mailto:csesanthosh15@gmail.com?subject=from portfolio"
+        },{
+          id:6,
+          title:"Instagram",
+          url:"https://www.instagram.com/santh0.sh/"
         }
       ]
     };
@@ -58,19 +62,16 @@ export default {
   font-weight: lighter;
   color: #0d1b2a;
 }
-/* .links{
-    width: 70%;
-} */
 a {
   color: #42b883;
 }
 
 .social {
-  font-weight: bolder;
-  display: inline;
+  font-weight: bold;
+  display: inline-flex;
   padding: 10px;
   font-size: 13vmin;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Roboto", Tahoma, Geneva, Verdana, sans-serif;
 }
 li {
   list-style: none;
