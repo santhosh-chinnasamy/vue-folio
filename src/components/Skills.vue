@@ -40,7 +40,7 @@ export default {
       multimedia: ["Gravit,", "GIMP,", "Adobe Photoshop"],
       cloud: ["Amazon Web Services,", "Google Cloud Platform"],
       OS: ["Ubuntu"],
-      others: ["Internet of Things"]
+      others: ["Internet of Things,","Wordpress Developer"]
     };
   }
 };
